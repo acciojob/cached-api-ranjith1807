@@ -69,7 +69,7 @@ const App = () => {
 
       {/* Loading State UI */}
       {loading ? (
-        <p style={{ color: '#0066cc', fontWeight: 'bold' }}>Loading data...</p>
+        <p style={{ color: '#0066cc', fontWeight: 'bold' }}>Loading...</p>
       ) : (
         /* Data Display UI */
         <ul style={{ listStyleType: 'none', padding: 0 }}>
